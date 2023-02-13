@@ -8,19 +8,19 @@ Classe Conta que possui os atributos do número, agência, cliente e saldo;
 - O atributo saldo deverá ter apenas método get;
 - O método sacar deverá ser abstrato sendo reescritos nas subclasses;
  
-- Classe Cliente:
+Classe Cliente:
 - Possui os atributos nome e cpf;
 - Tem um construtor com todos os atributos;
 - Apenas métodos gets;
  
-- Classe Conta corrente que herdar da classe conta;
+Classe Conta corrente que herdar da classe conta;
 - Método para cobrar R$ 0.10 de taxa a cada saque;
 - Não permite sacar um valor superior ao saldo;
 
-- Classe Conta poupança que herdar de conta;
+Classe Conta poupança que herdar de conta;
 - Não permitir sacar um valor superior ao saldo;
 
-- Classe Principal com o método main;
+Classe Principal com o método main;
 - Instancia um objeto do tipo conta corrente;
 - Instancia um objeto do tipo conta poupança;
 - Utiliza os métodos depositar e sacar para ambos os objetos;
